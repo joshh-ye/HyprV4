@@ -6,12 +6,12 @@ Could either git clone this repository
 ```
 git clone https://github.com/joshh-ye/HyprV4.git
 ```
-### Note: the following also have my personal preferences
+**Note: if you clone this repository the hyprland and waybar configurations are to my preferences**
 
-OR instead of apply following fixes:
+### OR instead of apply following fixes:
 
 
-##Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
+## Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
 **nwg-look-bin issue**
 run VIM on '_set-hypr_' file
 find 'nwg-look-bin' using / vim find function
@@ -21,7 +21,10 @@ nwg-look
 ```
 If this doesn't work, run 'yay -S nwg-look' and delete nwg-look-bin from '_set-hypr_'
 
-After hyprland is loaded, apply following fixes to the hyprland.conf file (cd ~./.config/hypr, then vim hyprland.conf) ATTENTION: there will be two hyprland.conf. Make sure to edit one in listed path.
+## After hyprland is loaded, apply following fixes to the hyprland.conf file
+ATTENTION: there will be two hyprland.conf. Make sure to edit one in listed path.  
+cd ~./.config/hypr  
+vim hyprland.conf  
 
 1) Navigate to ‘master {’ in vim and replace class with following:
 ```
