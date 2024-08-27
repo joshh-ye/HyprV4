@@ -3,32 +3,36 @@
 Forked from SolDoesTech's HyprV4 repository. Fixed syntax errors (hyprland documentation and AUR packages have updated this year) and applied personal preferences. Could git clone this repository instead of apply following fixes:
 
 Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
-```
+
 
 **nwg-look-bin issue**
 run VIM on '_set-hypr_' file
 find 'nwg-look-bin' using / vim find function
-replace with 'nwg-look'
-  If this doesn't work, run 'yay -S nwg-look' and delete nwg-look-bin from '_set-hypr_'
-
+replace with 
 ```
+nwg-look
+```
+If this doesn't work, run 'yay -S nwg-look' and delete nwg-look-bin from '_set-hypr_'
+
 After hyprland is loaded, apply following fixes to the hyprland.conf file (cd ~./.config/hypr, then vim hyprland.conf) ATTENTION: there will be two hyprland.conf. Make sure to edit one in listed path.
 
 1) Navigate to ‘master {’ in vim and replace class with following:
+```
 master {  
     \# See https://wiki.hyprland.org/Configuring/Master-Layout/ for more  
     new_status = true  
 }  
+```
 
 2) Navigate to 'device:epic mouse V1’ in vim and replace class with following:
+```
 device {  
     name = epic mouse V1  
     sensitivity = -0.5  
 }  
-
+```
 Enjoy!
 
-```
 # Rest of README is from original repo:
 # HyprV4
 This is V4 of the Hyprland install script
