@@ -1,10 +1,17 @@
 # Instructions for fixing hyprland install
 
-Forked from SolDoesTech's HyprV4 repository. Fixed syntax errors (hyprland documentation and AUR packages have updated this year) and applied personal preferences. Could git clone this repository instead of apply following fixes:
+Forked from SolDoesTech's HyprV4 repository. Fixed syntax errors (hyprland documentation and AUR packages have updated this year) and applied personal preferences. 
 
-Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
+Could either git clone this repository 
+```
+git clone https://github.com/joshh-ye/HyprV4.git
+```
+### Note: the following also have my personal preferences
+
+OR instead of apply following fixes:
 
 
+##Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
 **nwg-look-bin issue**
 run VIM on '_set-hypr_' file
 find 'nwg-look-bin' using / vim find function
@@ -19,7 +26,7 @@ After hyprland is loaded, apply following fixes to the hyprland.conf file (cd ~.
 1) Navigate to ‘master {’ in vim and replace class with following:
 ```
 master {  
-    \# See https://wiki.hyprland.org/Configuring/Master-Layout/ for more  
+    # See https://wiki.hyprland.org/Configuring/Master-Layout/ for more  
     new_status = true  
 }  
 ```
@@ -31,6 +38,7 @@ device {
     sensitivity = -0.5  
 }  
 ```
+
 Enjoy!
 
 # Rest of README is from original repo:
