@@ -2,16 +2,21 @@
 
 Forked from SolDoesTech's HyprV4 repository. Fixed syntax errors (hyprland documentation and AUR packages have updated this year) and applied personal preferences. 
 
-Could either git clone this repository 
+## Could either git clone this repository 
 ```
 git clone https://github.com/joshh-ye/HyprV4.git
 ```
 **Note: if you clone this repository the hyprland and waybar configurations are to my preferences**
 
-### OR instead of apply following fixes:
 
 
-## Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
+
+
+
+## OR instead of apply following fixes:
+
+
+#### Right after git cloning SolDoesTech's HyprV4 respository when installing arch.
 **nwg-look-bin issue**
 run VIM on '_set-hypr_' file
 find 'nwg-look-bin' using / vim find function
@@ -21,7 +26,7 @@ nwg-look
 ```
 If this doesn't work, run 'yay -S nwg-look' and delete nwg-look-bin from '_set-hypr_'
 
-## After hyprland is loaded, apply following fixes to the hyprland.conf file
+#### After hyprland is loaded, apply following fixes to the hyprland.conf file
 ATTENTION: there will be two hyprland.conf. Make sure to edit one in listed path.  
 cd ~./.config/hypr  
 vim hyprland.conf  
